@@ -37,5 +37,8 @@
     "testPathIgnorePatterns": [
       "generators/"
     ]
+  },
+  "dependencies": {
+    "Jest": "npm:jest@^29.7.0"
   }
 }
