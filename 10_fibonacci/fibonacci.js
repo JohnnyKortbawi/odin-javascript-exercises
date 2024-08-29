@@ -1,6 +1,6 @@
 const fibonacci = function(number) {
   if (typeof(number) == 'string') {
-    number = number.toString();
+    number = parseInt(number);
   }
   if (number < 0) {return "OOPS";}
   else if (number == 0) {return 0;}
